@@ -1,0 +1,2 @@
+public class upg96 {
+}
