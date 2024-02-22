@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class upg96 {
     public static void main(String[] args) {
         Scanner tgb = new Scanner(System.in);
-        String input = tgb.next(); //läs s 192 för att fortsätta lösa
+        String input = tgb.next();
         rot(input);
     }
 
