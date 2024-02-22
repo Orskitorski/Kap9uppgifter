@@ -37,7 +37,7 @@ public class upg94 {
             System.out.println("-----------------------");
             for (int i=1; i <= år; i++) {
                 belopp = belopp + belopp*0.01*ränta - uttag;
-                System.out.format("%8.2f kr  || %3d år\n" ,belopp,i);
+                System.out.format("%8.2f kr  || %3d år\n" ,belopp,i); //formatterar utskriften
             }
         }
         return belopp;
